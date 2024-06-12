@@ -1,0 +1,30 @@
+:root {
+	--red: #ff0000;
+	--red-offline: #c23616;
+	--orange-alert: #ff9900;
+	--green-marapets: #65cb9b;
+	--green-online: #26c281;
+	--green-dark: #457d4c;
+	--blue-link: #037ad6;
+	--grey-dark: #e8e8e8;
+	--grey-light: #f9f9fa;
+	--currency-bp: #d41c0d;
+	--currency-au: #cb5131;
+	--currency-olympic: #ffce18;
+	--currency-rp: #467f3a;
+	--currency-spy: #57da54;
+	--currency-score: #57a6c9;
+	--currency-referral: #26ddc5;
+	--currency-recycling: #672499;
+	--currency-slater: #ff75b9;
+	--currency-dukka: #6a422a;
+	--currency-fake-dukka: #bb6b13;
+	--currency-mp: #b87231;
+	--currency-memory: #6f6f6f;
+	--border-thin: 1px solid var(--grey-dark);
+	--border-medium: 2px solid var(--grey-dark);
+	--border-shop-blue: 2px solid var(--blue-link);
+	--border-shop-orange: 2px solid var(--orange-alert);
+	--border-shop-red: 2px solid var(--red);
+	--box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
