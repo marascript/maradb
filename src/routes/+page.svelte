@@ -4,6 +4,6 @@
 
 <ul>
 	{#each data.items as item}
-		<li>{item.name}</li>
+		<li>{item.id} - {item.name} - {item.categories.name}</li>
 	{/each}
 </ul>
