@@ -7,12 +7,14 @@ export async function load({ params }) {
 			`
 		id,
 		name,
-        rarity
+        rarity,
+		retired
 	    `
 		)
 		.eq('category_id', params.slug);
 
 	return {
-		items: data ?? []
+		items: data ?? [],
+		category: params.slug
 	};
 }
