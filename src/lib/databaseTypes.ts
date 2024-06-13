@@ -29,7 +29,7 @@ export type Database = {
       }
       items: {
         Row: {
-          category_id: number | null
+          category_id: number
           created_at: string
           id: number
           name: string
@@ -37,7 +37,7 @@ export type Database = {
           retired: boolean
         }
         Insert: {
-          category_id?: number | null
+          category_id: number
           created_at?: string
           id: number
           name: string
@@ -45,7 +45,7 @@ export type Database = {
           retired?: boolean
         }
         Update: {
-          category_id?: number | null
+          category_id?: number
           created_at?: string
           id?: number
           name?: string
