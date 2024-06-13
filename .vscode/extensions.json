@@ -4,6 +4,9 @@
 		"svelte.svelte-vscode",
 		"esbenp.prettier-vscode",
 		"jock.svg",
-		"mikestead.dotenv"
+		"mikestead.dotenv",
+		"ms-vscode.vscode-typescript-next",
+		"visualstudioexptteam.vscodeintellicode",
+		"VisualStudioExptTeam.intellicode-api-usage-examples"
 	]
 }
