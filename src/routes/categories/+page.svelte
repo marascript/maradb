@@ -6,6 +6,6 @@
 
 <ul>
 	{#each data.categories as category}
-		<li><a href="/categories/{category.id}">{category.name}</a></li>
+		<li><a href="/categories/{category.id}">{category.name} {category.qty}</a></li>
 	{/each}
 </ul>
