@@ -4,7 +4,10 @@ export async function load() {
 	const { data } = await supabase.from('category_view').select(`
 		id,
 		name,
-		qty
+		qty,
+		min_price,
+		max_price,
+		avg_price
 	`);
 
 	return {

@@ -9,7 +9,9 @@
 
 <ul>
 	{#each data.items as item}
-		<li>{item.id} - {item.name} - {item.rarity}</li>
+		<li>
+			{item.id} - {item.name} Qty: {item.qty} Avg: {item.avg_price} Min: {item.min_price} Max: {item.max_price}
+		</li>
 		<form method="post" target="_blank" action="https://www.marapets.com/shopsearch.php?do=search">
 			<input name="type" hidden value="2" />
 			<input name="item" hidden value={item.name} />

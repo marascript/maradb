@@ -2,13 +2,16 @@ import { supabase } from '$lib/supabaseClient';
 
 export async function load({ params }) {
 	const { data } = await supabase
-		.from('items')
+		.from('sale_view')
 		.select(
 			`
 		id,
 		name,
-        rarity,
-		retired
+		qty,
+		min_price,
+		max_price,
+		avg_price
+
 	    `
 		)
 		.eq('category_id', params.slug);
